@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Data Analyst - Alex Cattelin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Portfolio.AC/DA</div>
+            <ul class="nav-links">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li> <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        
+        <header id="home">
+            <h1>Alex Cattelin<br><span class="gradient-text">Data Analyst</span></h1>
+            <p class="subtitle">En route vers l'Engineering & la Data Science.</p>
+            
+            <div class="btn-group">
+                <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+                <a href="#contact" class="btn btn-outline">Me contacter</a>
+            </div>
+        </header>
+
+        <section id="about">
+            <h2 class="section-title">À propos</h2>
+            <p style="color: var(--text-muted); font-size: 1.1rem; max-width: 800px;">
+                Actuellement en reconversion professionnelle vers les métiers de la data, je développe mes compétences en analyse de données, visualisation et machine learning. Je recherche une alternance en tant que <strong>Data Engineer</strong> ou <strong>Data Scientist</strong> pour approfondir mes connaissances et contribuer à des projets data ambitieux.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2 class="section-title">Mes Compétences</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3 class="skill-title">Langages & Outils</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3 class="skill-title">Data Analysis & Viz</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Seaborn</span>
+                        <span class="skill-tag">Plotly</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3 class="skill-title">Data Engineering & ML</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Scikit-learn</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <section id="projects">
+            <h2 class="section-title">Projets Réalisés</h2>
+            
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-img" style="background-image: url('images/pict_toys_and_models.png');"></div>
+                    <div class="card-content">
+                        <h3 class="card-title">Dashboard KPI Financiers : Toys & Models</h3>
+                        <p class="card-desc">Création de requêtes SQL complexes pour extraire les indicateurs clés et visualisation interactive sur Power BI.</p>
+                        <a href="toys_and_models.pdf" target="_blank" class="card-link">Voir le Dashboard &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-img" style="background-image: url('images/senechal_movie.png');"></div>
+                    <div class="card-content">
+                        <h3 class="card-title">Modèle de recommanation de films</h3>
+                        <p class="card-desc">Exploration et nettoyage d'un jeu de données pour entrainement d'un modèle de Machine Learning, utilisable directmeent sur une application Streamlit.</p>
+                        <a href="https://github.com/halekss/senechalmovieapp.git" target="_blank" class="card-link">Voir sur GitHub &rarr;</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <h2 class="section-title">Me Contacter</h2>
+            <div class="contact-box">
+                <p class="contact-text">
+                    Intéressé par mon profil ? N'hésitez pas à me contacter pour discuter d'opportunités d'alternance.
+                </p>
+                <div class="btn-group">
+                    <a href="mailto:alex_2c@hotmail.fr" class="btn btn-primary">M'envoyer un mail</a>
+                    <a href="www.linkedin.com/in/alex-cattelin" target="_blank" class="btn btn-outline">LinkedIn</a>
+                    <a href="*" class="btn btn-outline">Mon CV</a>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <p>&copy; 2025 Alex Cattelin. Portfolio Data Analyst.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
